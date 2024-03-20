@@ -71,7 +71,7 @@ def test_add_pet_checks_isinstance():
 
     Pet.all = []
 
-def test_get_sorted_pets():
+def test_sort_pets_by_name():
     """Test Owner class has method get_sorted_pets, sorting related pets by name"""
     owner = Owner("John")
     pet1 = Pet("Fido", "dog", owner)
